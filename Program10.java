@@ -10,6 +10,8 @@ public class Program10 {
 			if (firstBig < arr[i]) {
 				secondBig = firstBig;
 				firstBig = arr[i];
+			}else if (secondBig < arr[i]) {
+				secondBig = arr[i];
 			}
 		}
 		int sum = firstBig + secondBig; // Highest 
