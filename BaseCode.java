@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class BaseCode {
 	public static void main(String[] args) {
 		System.err.println("Hello Java");
+		System.err.println("Hello python");
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
 		int num = scan.nextInt();
