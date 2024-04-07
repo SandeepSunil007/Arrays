@@ -5,6 +5,7 @@ import java.util.Scanner;
 // prefere to use in array always starts with i = 0 and i < array.length
 public class BaseCode {
 	public static void main(String[] args) {
+		System.err.println("Hello Java");
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
 		int num = scan.nextInt();
